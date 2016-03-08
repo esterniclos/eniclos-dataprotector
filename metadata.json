@@ -1,0 +1,66 @@
+{
+  "name": "eniclos-dataprotectoragent",
+  "version": "1.1",
+  "author": "Ester Niclos Ferreras",
+  "summary": "Installs Dataprotector Agents",
+  "license": "Apache-2.0",
+  "source": "https://github.com/esterniclos/eniclos-dataprotectoragent",
+  "project_page": "https://github.com/esterniclos/eniclos-dataprotectoragent",
+  "issues_url": "https://github.com/esterniclos/eniclos-dataprotectoragent/issues",
+  "dependencies": [
+      {}
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+          "6",
+          "7",
+	  "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04",
+        "14.04"
+      ]
+    },
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.7.0 < 2015.4.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    }
+  ]
+}
