@@ -1,4 +1,3 @@
-
 #
 # Purges all configuration
 #
@@ -9,11 +8,10 @@ inherits dataprotectoragent::params
   # class dataprotectoragent::config
   # ($enable => false)
   
-
-  file {"$mylocal":
-    ensure => 'absent',
+  file {$mylocal:
+    ensure  => absent,
     recurse => true,
-    force => true,
+    force   => true,
   }
 
 }

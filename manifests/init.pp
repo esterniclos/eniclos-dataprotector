@@ -3,7 +3,7 @@
 #
 
 class dataprotectoragent
-( $dataprotectorserver = "myserver.myorg")
+( $dataprotectorserver = 'myserver.myorg')
 inherits dataprotectoragent::params
 {
 
@@ -11,7 +11,7 @@ inherits dataprotectoragent::params
   include dataprotectoragent::deploy
   
   class {'dataprotectoragent::service':
-    enable => true,
+    enable              => true,
     dataprotectorserver => $dataprotectorserver,
   }
   

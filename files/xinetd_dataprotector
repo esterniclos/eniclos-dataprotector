@@ -1,0 +1,1 @@
+omni stream tcp nowait root /opt/omni/lbin/inet inet -log /var/opt/omni/log/inet.log
